@@ -1,3 +1,7 @@
+3.3.1
+  - Bug Fixes
+    - Bridge methods cause SqlObject exceptions to get wrapped in `InvocationTargetException`
+
 3.3.0
   - New API
     - SerializableTransactionRunner.setOnFailure(), setOnSuccess() methods allow callbacks to be
