@@ -1,6 +1,8 @@
 3.4.0
   - Bug Fixes
     - Bridge methods cause SqlObject exceptions to get wrapped in `InvocationTargetException`
+  - New API
+    - StatementException.getShortMessage
 
 3.3.0
   - New API
